@@ -1,0 +1,23 @@
+Package: aces
+Type: Package
+Title: Automatic Cartridge Evidence Scoring
+Version: 0.1.0
+Authors@R: 
+    c(person(given = "Joe",family = "Zemmels",role = c("aut","cre"),email = "jzemmels@iastate.edu"),
+      person(given = "Heike",family = "Hofmann",email = "hofmann@iastate.edu",role = "aut"),
+      person(given = "Susan",family = "VanderPlas", email ="susan.vanderplas@unl.edu",role= "aut"))
+Maintainer: Joe Zemmels <jzemmels@iastate.edu>
+Description: Applies the ACES (Automatic Cartridge Evidence Scoring) algorithm to compare cartridge case evidence.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
+Imports: 
+    assertthat,
+    dplyr,
+    progressr,
+    purrr,
+    tidyr
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
